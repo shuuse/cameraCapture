@@ -4,7 +4,7 @@ LABEL Simen Huuse - itelligence / NTT Data
 
 run apk add --update darkhttpd && rm -rf /var/cache/apk/*
 
-ADD camera.html /var/www/localhost/htdocs/camera.html
+ADD index.html /var/www/localhost/htdocs/index.html
 ADD entrypoint.sh /entrypoint.sh
 
 EXPOSE 80
