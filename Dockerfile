@@ -7,6 +7,6 @@ run apk add --update darkhttpd && rm -rf /var/cache/apk/*
 ADD index.html /var/www/localhost/htdocs/index.html
 ADD entrypoints.sh /entrypoints.sh
 
-EXPOSE 80
+EXPOSE 443
 
 ENTRYPOINT ["/entrypoints.sh"]
