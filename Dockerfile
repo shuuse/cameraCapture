@@ -9,4 +9,4 @@ ADD entrypoints.sh /entrypoints.sh
 
 EXPOSE 443
 
-ENTRYPOINT ["/entrypoints.sh"]
+ENTRYPOINT ["entrypoints.sh"]
